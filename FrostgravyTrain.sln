@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrostgravyTrain.Data", "Fro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrostgravyTrain.Data.Migrations", "FrostgravyTrain.Data.Migrations\FrostgravyTrain.Data.Migrations.csproj", "{5AB25E9C-7C84-4D20-9A35-64F423F6BC55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrostgravyTrain.Tests.Unit", "FrostgravyTrain.Tests.Unit\FrostgravyTrain.Tests.Unit.csproj", "{8CD94D17-77E7-4752-8107-7CE868F116C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrostgravyTrain.Tests.Integration", "FrostgravyTrain.Tests.Integration\FrostgravyTrain.Tests.Integration.csproj", "{AE20147F-F42C-4623-99EC-699643E73049}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{5AB25E9C-7C84-4D20-9A35-64F423F6BC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AB25E9C-7C84-4D20-9A35-64F423F6BC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AB25E9C-7C84-4D20-9A35-64F423F6BC55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD94D17-77E7-4752-8107-7CE868F116C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD94D17-77E7-4752-8107-7CE868F116C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD94D17-77E7-4752-8107-7CE868F116C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD94D17-77E7-4752-8107-7CE868F116C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE20147F-F42C-4623-99EC-699643E73049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE20147F-F42C-4623-99EC-699643E73049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE20147F-F42C-4623-99EC-699643E73049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE20147F-F42C-4623-99EC-699643E73049}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
