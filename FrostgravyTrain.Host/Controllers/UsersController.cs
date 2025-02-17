@@ -7,11 +7,11 @@ namespace FrostgravyTrain.Host.Controllers;
 
 public class UsersController : ControllerBase
 {
-    [HttpGet]
-    [Route("users/{userId}/warbands")]
-
-    public ServerResult GetUserWarbands(int userId)
-    {
-        return new ServerResult { };
-    }
+    // [HttpGet]
+    // [Route("users/{userId}/warbands")]
+    //
+    // public ServerResult GetUserWarbands(int userId)
+    // {
+    //     return new ServerResult { };
+    // }
 }

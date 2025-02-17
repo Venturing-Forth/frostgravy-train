@@ -1,8 +1,8 @@
 ### Get All User Warbands
-GET {{HostAddress}}/api/1/warbands
+GET {{HostAddress}}/api/users/1/warbands/
 Accept: application/json
 
 ###
 
-GET {{HostAddress}}/api/6/warbands/
+GET {{HostAddress}}/api/users/6/warbands/
 Accept: application/json
