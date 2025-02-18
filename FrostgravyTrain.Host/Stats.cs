@@ -1,6 +1,6 @@
 ﻿namespace FrostgravyTrain.Host;
 
-public class WizardStats
+public class Stats
 {
     public int Move { get; set; }
     public int Fight { get; set; }

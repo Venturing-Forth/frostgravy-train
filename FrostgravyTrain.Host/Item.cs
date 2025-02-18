@@ -61,7 +61,7 @@ public enum SourceBook
 
 public class MagicEffects
 {
-    public WizardStats ModifiedStat { get; set; }
+    public Stats ModifiedStat { get; set; }
     public int ModifierValue { get; set; }
     public string Notes { get; set; }
 }

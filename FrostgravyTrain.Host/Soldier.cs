@@ -5,12 +5,15 @@ public class Soldier
     public string Name { get; set; }
     public SoldierType Type { get; set; }
     public SoldierGrade Grade { get; set; }
-    public WizardStats Stats { get; set; }
+    public Stats Stats { get; set; }
     public int Cost { get; set; }
     public Item ItemSlot { get; set; }
     public List<string> Notes { get; set; }
 }
-
+/* REFACTOR NOTES: Soldier Data should be derived from its own class rules,
+ * rewrite to restructure the soldier type away from being an enum with
+ * decoupled data.
+ */
 public enum SoldierType
 {
     Thug = 1,

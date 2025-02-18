@@ -13,7 +13,7 @@ public class Wizard
     [Required]
     public WizardSchool School { get; set; }
     [Required]
-    public WizardStats Stats { get; set; }
+    public Stats Stats { get; set; }
     [Required]
     public List<Spell> Spells { get; set; }
     public List<Item> ItemSlots { get; set; }

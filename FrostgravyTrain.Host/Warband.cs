@@ -13,11 +13,11 @@ public class Warband
     [Required]
     public Apprentice Apprentice { get; set; }
     [Required]
-    public IEnumerable<Soldier> Soldiers { get; set; }
+    public List<Soldier> Soldiers { get; set; }
     [Required]
     public HomeBase HomeBase { get; set; }
     [Required]
-    public List<Items> Vault { get; set; }
+    public List<Item> Vault { get; set; }
     [Required]
     public int Treasury { get; set; }
 }
