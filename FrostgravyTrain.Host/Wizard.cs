@@ -16,7 +16,7 @@ public class Wizard
     public WizardStats Stats { get; set; }
     [Required]
     public List<Spell> Spells { get; set; }
-    public Array<Items> ItemSlots { get; set; }
+    public List<Item> ItemSlots { get; set; }
     public List<PermanentInjury> PermanentInjuries { get; set; }
     public List<string> Notes { get; set; }
 }
